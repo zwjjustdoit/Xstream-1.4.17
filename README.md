@@ -1,9 +1,12 @@
 # Xstream-1.4.17
+
+（以上Xstream Demo环境支持本地测试和HTTP远程发包）
+
 XSTREAM&lt;=1.4.17漏洞复现（CVE-2021-39141、CVE-2021-39144、CVE-2021-39150）
 
-*不提供本实验利用POC，为避免恶意人员的利用，仅提供官网POC：http://x-stream.github.io/changes.html
+不提供本实验利用POC，仅展示复现利用效果，为避免恶意人员的利用，仅提供官网POC：http://x-stream.github.io/changes.html
 
-以上Demo环境支持本地测试和HTTP远程发包
+
 ### CVE-2021-39141（RCE）
 攻击机起一个http服务供Exploit.class的访问，再用marshalsec工具起一个LDAP监听器，如下：
 
