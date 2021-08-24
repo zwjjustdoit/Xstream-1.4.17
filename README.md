@@ -1,6 +1,6 @@
 # Xstream-1.4.17
 
-（以上Xstream Demo环境支持本地测试和HTTP远程发包）
+（以上Xstream Demo环境经本人搭建，现支持本地测试和HTTP远程发包）
 
 XSTREAM&lt;=1.4.17漏洞复现（CVE-2021-39141、CVE-2021-39144、CVE-2021-39150）
 
