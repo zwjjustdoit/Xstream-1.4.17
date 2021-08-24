@@ -26,3 +26,12 @@ A Server-Side Forgery Request can be activated unmarshalling with XStream to acc
 
 ![4](https://user-images.githubusercontent.com/50495555/130566177-2cbc2fa2-f437-4ac7-8834-d3bd9a63d16e.png)
 
+### CVE-2021-39152（SSRF）
+All versions until and including version 1.4.17 are affected, if using the version out of the box with Java runtime version 14 to 8.
+发包即利用
+![5](https://user-images.githubusercontent.com/50495555/130576671-dcdaa3db-81d1-4623-a1cc-7e520ef33edb.png)
+经测试发现内外网的IP或者域名仅能解析/探测一次
+![1](https://user-images.githubusercontent.com/50495555/130576798-ac0c21e3-c049-4bdd-b5d9-22a6a800d25e.png)
+
+
+
