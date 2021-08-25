@@ -2,7 +2,7 @@
 
 （以上Xstream Demo环境经本人搭建，漏洞利用环境以JDK1.8_u131为准，现支持本地测试和HTTP远程发包）
 
-XSTREAM&lt;=1.4.17漏洞复现（CVE-2021-39141、CVE-2021-39144、CVE-2021-39150）
+XSTREAM&lt;=1.4.17漏洞复现（CVE-2021-39141、CVE-2021-39144、CVE-2021-39150、CVE-2021-39152）
 
 不提供本实验利用POC，仅展示复现利用效果，为避免恶意人员的利用，仅提供官网POC：http://x-stream.github.io/changes.html
 
